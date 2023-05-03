@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+.container{
+    position: absolute;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 130px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+header {
+    display: flex;
+    padding-top: 24px;
+}
+
+header > .logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #254F4C;
+}
+
+.menu{
+    margin-left: 129px;
+}
+
+header .menu > ul {
+    display: flex;
+    gap: 120px;
+}
+
+header .home {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+header li > a {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D3130;
+}
+
+header .arrow {
+    margin: 3px 0 0 10px;
+}
+
+header .contact-number {
+    margin: 3px 0 0 10px;
+}
+
+
+header .basket {
+    margin: 0 0 0 50px;
+}
