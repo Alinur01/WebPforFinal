@@ -121,3 +121,147 @@ header .basket {
     height: 455px;
     top: 30px;
 }
+
+.novelties {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 89px;
+}
+
+.novelties > h2 {
+    width: 112px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    margin-right: 20px;
+}
+
+.novelties .food-navigation > li > a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D3130;
+}
+
+.novelties .food-navigation {
+    display: flex;
+    gap: 30px;
+    margin: 25px 250px 0 0;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.burger-menu > .background-for-cheeseburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 264px;
+    height: 348.13px;
+    background-color: #2B4241;
+    border-radius: 40px;
+    margin-top: 88px;
+}
+
+.burger-menu > .background-for-cheeseburger > img {
+    width: 200px;
+    height: 142.87px;
+    bottom: 44.27px;
+    position: relative;
+}
+
+.burger-menu > .background-for-cheeseburger > h3{
+    bottom: 44.27px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.burger-menu > .background-for-cheeseburger > .desc{
+    bottom: 60px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.burger-menu > .background-for-cheeseburger > .price{
+    position: relative;
+    bottom: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.burger-menu > .background-for-cheeseburger > .quantity{
+    position: relative;
+    bottom: 110px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.burger-menu .plus{
+    top: 5px;
+    left: 5px;
+    position: relative;
+}
+
+.burger-menu .minus{
+    bottom: 3px;
+    right: 5px;
+    position: relative;
+}
+
+.burger-menu > .background-for-cheeseburger  > button {
+    width: 200px;
+    height: 48.3px;
+    background: #FF583E;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 300px;
+    border: none;
+}
+
+.background-for-cheeseburger1{
+    width: 264px;
+    height: 348.13px;
+    background-color: #2B4241;
+    border-radius: 40px;
+    margin: 88px 10px 0 0;
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+    margin-left: 35px;
+}
+
