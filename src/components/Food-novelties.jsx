@@ -5,7 +5,7 @@ const FoodNovelties = () => {
     return (
         <section> {/*Новинки в меню*/}
             <div className="novelties">
-                <h2 className="">Новинки</h2>
+                <h2>Новинки</h2>
                 <div className="food-navigation-bar">
                     <ul className="food-navigation">
                         <li><a href="#">Пицца</a></li>

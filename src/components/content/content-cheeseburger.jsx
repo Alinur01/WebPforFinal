@@ -1,5 +1,5 @@
 import React from "react";
-import BurgerMenu from "../burger-menu";
+import TypesOfCheeseburgers from "../Types-of-cheeseburgers";
 import firstCheeseburger from "../pages/img/first-cheeseburger.png";
 import secondCheeseburger from "../pages/img/second-cheeseburger.png";
 import thirdCheeseburger from "../pages/img/third-cheeseburger.png";
@@ -24,17 +24,17 @@ const cheeseburger = [
 const ContentCheeseburger = () => {
     return (
         <>
-            <div className="flex">
-                <BurgerMenu
+            <div className="flex-cheeseburger">
+                <TypesOfCheeseburgers
                     img={cheeseburger[0].img}
                 />
-                <BurgerMenu
+                <TypesOfCheeseburgers
                     img={cheeseburger[1].img}
                 />
-                <BurgerMenu
+                <TypesOfCheeseburgers
                     img={cheeseburger[2].img}
                 />
-                <BurgerMenu
+                <TypesOfCheeseburgers
                     img={cheeseburger[3].img}
                 />
             </div>

@@ -7,6 +7,10 @@ body {
     margin: auto;
 }
 
+.flex {
+    display: flex;
+}
+
 a {
     text-decoration: none;
 }
@@ -178,7 +182,7 @@ header .basket {
     position: relative;
 }
 
-.burger-menu > .background-for-cheeseburger > h3{
+.burger-menu > .background-for-cheeseburger > h3 {
     bottom: 44.27px;
     position: relative;
     font-family: 'Roboto';
@@ -189,7 +193,7 @@ header .basket {
     color: #FFFFFF;
 }
 
-.burger-menu > .background-for-cheeseburger > .desc{
+.burger-menu > .background-for-cheeseburger > .desc {
     bottom: 60px;
     position: relative;
     font-family: 'Roboto';
@@ -200,7 +204,7 @@ header .basket {
     color: #FFFFFF;
 }
 
-.burger-menu > .background-for-cheeseburger > .price{
+.burger-menu > .background-for-cheeseburger > .price {
     position: relative;
     bottom: 80px;
     font-family: 'Roboto';
@@ -210,7 +214,8 @@ header .basket {
     line-height: 23px;
     color: #FFFFFF;
 }
-.burger-menu > .background-for-cheeseburger > .quantity{
+
+.burger-menu > .background-for-cheeseburger > .quantity {
     position: relative;
     bottom: 110px;
     font-family: 'Roboto';
@@ -221,19 +226,19 @@ header .basket {
     color: #FFFFFF;
 }
 
-.burger-menu .plus{
+.plus {
     top: 5px;
     left: 5px;
     position: relative;
 }
 
-.burger-menu .minus{
+.minus {
     bottom: 3px;
     right: 5px;
     position: relative;
 }
 
-.burger-menu > .background-for-cheeseburger  > button {
+.burger-menu > .background-for-cheeseburger > button {
     width: 200px;
     height: 48.3px;
     background: #FF583E;
@@ -251,7 +256,7 @@ header .basket {
     border: none;
 }
 
-.background-for-cheeseburger1{
+.background-for-cheeseburger1 {
     width: 264px;
     height: 348.13px;
     background-color: #2B4241;
@@ -259,9 +264,158 @@ header .basket {
     margin: 88px 10px 0 0;
 }
 
-.flex {
+.flex-cheeseburger {
     display: flex;
     gap: 32px;
     margin-left: 35px;
 }
 
+.menu-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 89px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+}
+
+.sort {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D3130;
+    margin-right: 31px;
+}
+
+.option {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 16px;
+    color: #3A403F;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+}
+
+.pizza-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pizza-menu > .background-for-pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 264px;
+    height: 338px;
+    border-radius: 40px;
+    margin-top: 88px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-pizza {
+    display: flex;
+    gap: 32px;
+    margin-left: 35px;
+}
+
+.pizza-menu > .background-for-pizza > img {
+    width: 200px;
+    height: 142.87px;
+    bottom: 44.27px;
+    position: relative;
+}
+
+.pizza-menu > .background-for-pizza > h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    bottom: 44.27px;
+    position: relative;
+}
+
+.pizza-menu > .background-for-pizza > .desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    bottom: 60px;
+    position: relative;
+}
+
+.pizza-menu > .background-for-pizza > .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    position: relative;
+    bottom: 80px;
+}
+
+.pizza-menu > .background-for-pizza > .quantity {
+    position: relative;
+    bottom: 115px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #254F4C;
+}
+
+.pizza-menu > .background-for-pizza > button {
+    width: 200px;
+    height: 48px;
+    background: #254F4C;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 290px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    top: 43.42px;
+    position: relative;
+}
+
+.flex-center > button {
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 200px;
+    height: 48.3px;
+    border: 1px solid #FF583E;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF583E;
+}

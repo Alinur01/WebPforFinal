@@ -3,7 +3,7 @@ import plus from "./pages/icons/plus 9.svg"
 import minus from "./pages/icons/minus.svg"
 
 
-const BurgerMenu = (props) => {
+const TypesOfCheeseburgers = (props) => {
     return (
         <div className="burger-menu">
             <div className="background-for-cheeseburger">
@@ -21,4 +21,4 @@ const BurgerMenu = (props) => {
     )
 }
 
-export default BurgerMenu;
+export default TypesOfCheeseburgers;
