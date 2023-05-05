@@ -1,22 +1,23 @@
 body {
     margin: 0;
 }
-.container{
-    position: absolute;
+
+.container {
     max-width: 1200px;
-    margin: 0 auto;
-    left: 130px;
+    margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
 
 header {
     display: flex;
+    justify-content: space-around;
     padding-top: 24px;
 }
 
@@ -29,13 +30,15 @@ header > .logo {
     color: #254F4C;
 }
 
-.menu{
-    margin-left: 129px;
+.menu {
+    margin-left: 90px;
 }
 
 header .menu > ul {
+    position: relative;
     display: flex;
     gap: 120px;
+    right: 80px;
 }
 
 header .home {
@@ -67,4 +70,54 @@ header .contact-number {
 
 header .basket {
     margin: 0 0 0 50px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-block > .flex-column {
+    margin-top: 100px;
+}
+
+.main-block .flex-column > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #254F4C;
+}
+
+.main-block .flex-column > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D3130;
+}
+
+.main-block .flex-column > button {
+    width: 216px;
+    height: 49px;
+    background: #FF583E;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.main-block .main-img {
+    position: relative;
+    width: 659px;
+    height: 455px;
+    top: 30px;
 }
