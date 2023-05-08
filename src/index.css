@@ -426,7 +426,7 @@ header .basket {
     margin: 82px 0 0 35px;
 }
 
-.choose-us{
+.choose-us {
     margin: 100px 0 0 45px;
     font-family: 'Roboto';
     font-style: normal;
@@ -469,7 +469,85 @@ header .basket {
     text-align: center;
 }
 
-.flex-gap{
+.flex-gap {
     display: flex;
     justify-content: space-around;
+}
+
+
+.review > .review-card {
+    width: 248px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1D3130;
+    border-radius: 40px;
+}
+
+.review > .review-card > img {
+    margin-top: 24px;
+    width: 85px;
+    height: 80px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.review > .review-card > h4 {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #3B7976;
+}
+
+.review > .review-card > .desc {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #061817;
+}
+
+.review > .review-card > .comment-date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #3B7976;
+    margin-top: 270px;
+    position: absolute;
+}
+
+.review > .bg-pen {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    margin-top: -9px;
+}
+
+.flex-reviews {
+    display: flex;
+    gap: 34px;
+    margin: 49px 0 0 40px;
+}
+
+.reviews {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #254F4C;
+    margin: 56px 0 0 45px;
 }
