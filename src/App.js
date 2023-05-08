@@ -5,6 +5,7 @@ import FoodNovelties from "./components/Food-novelties";
 import ContentCheeseburger from "./components/content/content-cheeseburger";
 import MenuFoodPlanet from "./components/Menu-food-planet";
 import ContentPizza from "./components/content/content-pizza";
+import ContentWhyChooseUs from "./components/content/content-why-choose-us";
 const App = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const App = () => {
                 <ContentCheeseburger/>
                 <MenuFoodPlanet/>
                 <ContentPizza/>
+                <ContentWhyChooseUs/>
             </div>
         </>
     )

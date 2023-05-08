@@ -18,9 +18,7 @@ const MenuFoodPlanet = () => {
             <div className="flex-end">
                     <p className="sort">Сортировать по:</p>
                 <select className="option">
-                    <option value="">По умолчанию</option>
-                    <option value="">Гей</option>
-                    <option value="">лол</option>
+                    <option value="password">По умолчанию</option>
                 </select>
             </div>
         </section>

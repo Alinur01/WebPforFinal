@@ -201,6 +201,7 @@ header .basket {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -353,6 +354,7 @@ header .basket {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
+    text-align: center;
     bottom: 60px;
     position: relative;
 }
@@ -418,4 +420,56 @@ header .basket {
     text-align: center;
     text-transform: uppercase;
     color: #FF583E;
+}
+
+.Why-choose-us {
+    margin: 82px 0 0 35px;
+}
+
+.choose-us{
+    margin: 100px 0 0 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Why-choose-us > .flex-column-center > img {
+    width: 88px;
+    height: 88px;
+}
+
+
+.Why-choose-us > .flex > .flex-column-center > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+}
+
+.Why-choose-us > .flex > .flex-column-center > p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D3130;
+    text-align: center;
+}
+
+.flex-gap{
+    display: flex;
+    justify-content: space-around;
 }

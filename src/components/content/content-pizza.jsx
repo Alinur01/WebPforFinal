@@ -35,7 +35,6 @@ const ContentPizza = () => {
                 />
                 <TypesOfPizza
                     img={secondPizza}
-
                 />
                 <TypesOfPizza
                     img={thirdPizza}
