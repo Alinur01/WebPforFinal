@@ -7,6 +7,8 @@ import MenuFoodPlanet from "./components/Menu-food-planet";
 import ContentPizza from "./components/content/content-pizza";
 import ContentWhyChooseUs from "./components/content/content-why-choose-us";
 import ContentReviews from "./components/content/content-reviews";
+import Footer from "./components/footer";
+
 const App = () => {
     return (
         <>
@@ -20,6 +22,7 @@ const App = () => {
                 <ContentWhyChooseUs/>
                 <ContentReviews/>
             </div>
+            <Footer/>
         </>
     )
 }
