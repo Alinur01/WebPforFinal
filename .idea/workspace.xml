@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73aa6d9-359d-44ba-bb0c-d793188f60c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/content/content-cheeseburger.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/content-pizza.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-block.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main-block/Main-block.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/content-cheeseburger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-cheeseburger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/content-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-pizza.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/content-why-choose-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-why-choose-us.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-cheeseburger.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-pizza.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-why-choose-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-why-choose-us.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/icons/arrow.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/icons/basket.svg" beforeDir="false" />
@@ -82,8 +85,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages" />
       <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src" />
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages\main-block" />
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,7 +103,7 @@
       <workItem from="1687539229498" duration="5066000" />
       <workItem from="1687545065454" duration="546000" />
       <workItem from="1687545858183" duration="5212000" />
-      <workItem from="1687592808875" duration="4195000" />
+      <workItem from="1687592808875" duration="4609000" />
     </task>
     <servers />
   </component>
