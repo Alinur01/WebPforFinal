@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c73aa6d9-359d-44ba-bb0c-d793188f60c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-block.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-cheeseburger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-cheeseburger.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-pizza.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/content-why-choose-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/content-why-choose-us.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/basket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/bg-pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/contact-number-footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/contact-number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/delivery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/fresh-food.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/instant-delivery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/logo-footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/next-btn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/plus 9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/icons/unique-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/fifth-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/first-cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/first-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/fourth-cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/fourth-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/mian-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/second-cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/second-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/sixth-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/third-cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/img/third-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RbBcbWN8phe7D0FWoeZHc3t8KC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Рабочий стол/front1/React/food1/food/food-planet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages" />
+      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c73aa6d9-359d-44ba-bb0c-d793188f60c9" name="Changes" comment="" />
+      <created>1687508981200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687508981200</updated>
+      <workItem from="1687508984547" duration="9978000" />
+      <workItem from="1687539086485" duration="139000" />
+      <workItem from="1687539229498" duration="5066000" />
+      <workItem from="1687545065454" duration="546000" />
+      <workItem from="1687545858183" duration="5212000" />
+      <workItem from="1687592808875" duration="4195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

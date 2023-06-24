@@ -1,9 +1,9 @@
 import React from "react";
-import WhyChooseUs from "../Why-choose-us";
-import instantDelivery from "../pages/icons/instant-delivery.svg"
-import freshFood from "../pages/icons/fresh-food.svg"
-import uniqueMenu from "../pages/icons/unique-menu.svg"
-import delivery from "../pages/icons/delivery.svg"
+import WhyChooseUs from "../components/Why-choose-us";
+import instantDelivery from "../media/icons/instant-delivery.svg"
+import freshFood from "../media/icons/fresh-food.svg"
+import uniqueMenu from "../media/icons/unique-menu.svg"
+import delivery from "../media/icons/delivery.svg"
 
 
 const cardQuality = [

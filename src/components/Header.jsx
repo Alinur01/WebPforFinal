@@ -1,28 +1,31 @@
 import React from "react";
-import logo from "./pages/img/logo.png";
-import contacts from "./pages/icons/contact-number.svg";
-import basket from "./pages/icons/basket.svg";
-import arrow from "./pages/icons/arrow.svg";
+import logo from "../media/img/logo.png";
+import contacts from "../media/icons/contact-number.svg";
+import basket from "../media/icons/basket.svg";
+import arrow from "../media/icons/arrow.svg";
+import { links } from "../constants/road";
+import {NavLink} from "react-router-dom";
 
 
 const Header = () => {
-    return(
+    return (
         <header>
-            <div classname="logo">{/*Логотип сайта*/}
-                <img src={logo} alt="Логотип сайта" className="logo-img"/>
+            <div className="logo">{/* Логотип сайта */}
+                <img src={logo} alt="Логотип сайта" className="logo-img" />
             </div>
-            <div className="menu">{/*панель навигации*/}
+            <div className="menu">{/* Панель навигации */}
                 <ul>
-                    <li><a href="#" className="home">Главная</a></li>
-                    <li><a href="#">Меню<img src={arrow} className="arrow"/></a></li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><img src={contacts} alt="Контактный номер" className="contact-number"/><a href="#">+996500405988</a></li>
-                    <li><img src={basket} alt="корзина с выбранным товаром" className="basket"/></li>
+                    {links.map((item) => (
+                        <li className="home" key={item.id}>
+                            <a href={item.link}>{item.name}</a>
+                        </li>
+                    ))}
+                     <NavLink to="/CartWithSelectedItem"><img src={basket} alt="корзина с выбранным товаром" className="basket"/></NavLink>
                 </ul>
             </div>
         </header>
-    )
-}
+    );
+};
+
 
 export default Header;

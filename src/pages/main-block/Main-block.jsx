@@ -1,8 +1,9 @@
 import React from "react";
-import further from "./pages/icons/next-btn.svg"
-import main from "./pages/img/mian-img.png"
+import further from "../../media/icons/next-btn.svg"
+import main from "../../media/img/mian-img.png"
 
 const MainBlock = () => {
+
     return(
         <main>
             <div className="main-block">{/*основной блок*/}

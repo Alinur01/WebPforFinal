@@ -1,5 +1,5 @@
 import React from "react";
-import Reviews from "../reviews";
+import Reviews from "../components/reviews";
 
 const reviews = [
     {

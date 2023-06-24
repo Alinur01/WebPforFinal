@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+hr {
+    width: 95%;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -9,6 +13,33 @@ body {
 
 .flex {
     display: flex;
+}
+
+.flex2{
+    display: flex;
+gap: 20px;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.select {
+    width: 250px;
+    height: 50px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 130px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.d-flex2 {
+    display: flex;
+    gap: 130px;
+    margin: 50px 40px 0 0;
 }
 
 a {
@@ -39,10 +70,8 @@ header > .logo {
 }
 
 header .menu > ul {
-    position: relative;
     display: flex;
     gap: 120px;
-    right: 80px;
 }
 
 header .home {
@@ -71,9 +100,9 @@ header .contact-number {
     margin: 3px 0 0 10px;
 }
 
-
 header .basket {
-    margin: 0 0 0 50px;
+    position: relative;
+    right: 50px;
 }
 
 .main-block {
@@ -157,11 +186,6 @@ header .basket {
     display: flex;
     gap: 30px;
     margin: 25px 250px 0 0;
-}
-
-.burger-menu {
-    display: flex;
-    justify-content: space-around;
 }
 
 .burger-menu > .background-for-cheeseburger {
@@ -269,6 +293,7 @@ header .basket {
     display: flex;
     gap: 32px;
     margin-left: 35px;
+    flex-direction: row;
 }
 
 .menu-flex {
@@ -440,7 +465,6 @@ header .basket {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .Why-choose-us > .flex-column-center > img {
@@ -587,4 +611,402 @@ footer li > a {
 
 .contact-number-footer {
     margin-right: 10px;
+}
+
+.empty-basket-department {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.empty-basket-department > .empty-box {
+    width: 130px;
+    height: 130px;
+}
+
+.empty-basket-department > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 42px;
+    color: #254F4C;
+}
+
+.empty-basket-department > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #68736d;
+    position: absolute;
+    margin-top: 220px;
+}
+
+.empty-basket-department .btn-basket {
+    background-color: #4242d3;
+    width: 340px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.basket-with-selected-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basket-with-selected-products > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 42px;
+    color: #254F4C;
+}
+
+.basket-with-selected-products > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #68736d;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.cheeseburger-bascet {
+    width: 100px;
+    height: 80px;
+    margin-left: 100px;
+}
+
+.d-flex-basket {
+    display: flex;
+    position: relative;
+    gap: 70px;
+    justify-content: space-around;
+    margin-top: 20px;
+    right: 100px;
+}
+
+.count {
+    margin-right: 100px;
+}
+
+.d-flex-basket-second-stage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 350px;
+}
+
+input {
+    border: 1px solid #D2D2D7;
+    border-radius: 5px;
+    height: 10px;
+    width: 100px;
+    font-weight: normal;
+    padding: 21px 25px;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000 !important;
+    position: relative;
+    margin-top: 7px;
+    left: 20px;
+}
+
+.d-flex-basket > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #254F4C;
+    margin-right: 60px;
+}
+
+.d-flex-basket > p {
+    box-sizing: content-box;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105%;
+    color: #000000;
+    left: 50px;
+    position: relative;
+}
+
+.d-flex-basket > .price-basket {
+    left: 70px;
+    position: relative;
+}
+
+.total {
+    margin: 0 0 0 650px;
+    display: flex;
+}
+
+.total1 {
+    margin: 50px 0 0 650px;
+    display: flex;
+}
+
+.hr2 {
+    position: relative;
+    bottom: 70px;
+}
+
+.hr3 {
+    position: relative;
+    bottom: 160px;
+}
+
+.total-price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105%;
+    color: #000000;
+    left: 90px;
+    position: relative;
+}
+
+.totalPrice {
+    position: relative;
+    left: 50px;
+}
+
+.order {
+    padding: 0 100px 0 100px;
+}
+
+.order > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #254F4C;
+}
+
+.order > a {
+    margin: 0 0 0 50px;
+    bottom: 20px;
+    position: relative;
+}
+
+.personal-information > input {
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.bg-promoCode {
+    background: #EBF1FA;
+    border-radius: 5px;
+    padding: 25px;
+    height: 400px;
+    width: 300px;
+    max-height: 500px;
+}
+
+.promo-code > .bg-promoCode > .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-code > .bg-promoCode > .flex > p {
+    font-size: 14px;
+    line-height: 110%;
+    color: #828282;
+}
+
+.promo-code > .bg-promoCode > .flex > .price {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    color: #1D1D1F;
+}
+
+.promo-code > .bg-promoCode > .flex > .price1 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 110%;
+    color: #1D1D1F;
+}
+
+.promo-code > .bg-promoCode > button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #5E8BCE;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    transition: 0.5s;
+    font-family: "SF Pro Display Medium";
+}
+
+.btn-checkout{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #5E8BCE;
+    position: relative;
+    right: 100px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    transition: 0.5s;
+    font-family: "SF Pro Display Medium";
+}
+
+.promo-code > .bg-promoCode > p {
+    font-size: 14px;
+    line-height: 110%;
+    color: #828282;
+}
+
+.inp-promoCode {
+    width: 230px;
+}
+
+.cheeseburger-bascetSecond-stage {
+    width: 100px;
+    height: 80px;
+    position: relative;
+}
+
+.basket-top {
+    position: relative;
+    bottom: 270px;
+}
+
+.d-flex-bascet {
+    display: flex;
+    gap: 230px;
+    justify-content: start;
+}
+
+.close{
+    width: 20px;
+    position: relative;
+    top: 23px;
+    height: 20px;
+}
+
+.comment-order{
+
+    position: relative;
+    top: 100px;
+}
+
+.comment-to-the-order{
+    width: 90%;
+    height: 30px;
+}
+
+.d-flex > p {
+    margin-top: -20px;
+}
+
+.indent {
+    margin-right: 20px;
+}
+
+.indent-2 {
+    position: relative;
+    right: 50px;
+}
+
+.continue-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.continue-order > a {
+    margin-left: 250px;
+    color: #5E8BCE;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.continue-order > button {
+    width: 300px;
+    height: 50px;
+    margin-right: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #5E8BCE;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    cursor: pointer
+}
+
+.h4-mR {
+    right: 100px;
+    position: relative;
+}
+
+.p-mR {
+    right: 30px;
+    position: relative;
+}
+
+.price-basket-mL {
+    position: relative;
+    left: 25px;
+}
+
+.hr5 {
+    width: 70%;
+    right: 200px;
+    position: relative;
+}
+
+.self-call {
+    margin: 10px 100px 0 0;
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    border: 2px solid black;
+    padding-right: 50px;
+}
+
+input[type="radio"] {
+    width: 60px;
+    height: 15px;
+    top: 10px;
+    position: relative;
+}
+
+.shipping-ways {
+    top: 7px;
+    position: relative;
+}
+
+.delivery-method {
+    margin: 0;
+    width: 250px;
 }

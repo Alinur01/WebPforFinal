@@ -1,7 +1,7 @@
 import React from "react";
-import avatar from "./pages/img/avatar.png";
-import pen from "./pages/icons/pen.svg";
-import bgPen from "./pages/icons/bg-pen.svg";
+import avatar from "../media/img/avatar.png";
+import pen from "../media/icons/pen.svg";
+import bgPen from "../media/icons/bg-pen.svg";
 
 const Reviews = (props) => {
     return (
