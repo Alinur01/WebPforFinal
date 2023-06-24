@@ -8,19 +8,16 @@ const CartWithSelectedItem = () => {
     const [cartData, setCartData] = useState(
         JSON.parse(localStorage.getItem("products") || "[]")
     );
-
     const totalPrice = cartData.reduce(
         (total, item) => total + item.count * item.price,
         0
     );
-
     const removeItem = (index) => {
         const updatedCart = [...cartData];
         updatedCart.splice(index, 1);
         setCartData(updatedCart);
         localStorage.setItem("products", JSON.stringify(updatedCart));
     };
-
     return (
         <>
             <Header />
