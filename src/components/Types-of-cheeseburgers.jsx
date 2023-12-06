@@ -54,7 +54,7 @@ const TypesOfCheeseburgers = ({name, desc, price, img, id}) => {
         }
 
         setProduct(list);
-        localStorage.setItem("cheeseburgers", JSON.stringify(list));
+        localStorage.setItem("products", JSON.stringify(list));
     };
     return (
         <div className="flex-cheeseburger">

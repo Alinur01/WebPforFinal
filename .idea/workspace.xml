@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73aa6d9-359d-44ba-bb0c-d793188f60c9" name="Changes" comment="">
+    <list default="true" id="a6ae4d37-0488-431b-8154-779a5588a4ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/food-planet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/food-planet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Food-novelties.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Food-novelties.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu-food-planet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu-food-planet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-cheeseburgers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Types-of-pizza.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Why-choose-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Why-choose-us.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/road.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/road.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/translation-of-the-page-into-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/translation-of-the-page-into-json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/content-cheeseburger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-cheeseburger.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/content-pizza.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-pizza.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/content-reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/content-why-choose-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content-why-choose-us.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/basket/Cart-with-selected-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basket/Cart-with-selected-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basket/Cart-without-goods.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basket/Cart-without-goods.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basket/Goods-order.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/basket/Goods-order.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main-block/Main-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main-block/Main-block.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,63 +39,41 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2RbBcbWN8phe7D0FWoeZHc3t8KC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ZA2rz5Q0CDD3KPOCYMvMBX2Qik" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Рабочий стол/front1/React/food1/food/food-planet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src" />
-      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages\main-block" />
-      <recent name="C:\Users\User\OneDrive\Рабочий стол\front1\food-planet\src\pages" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c73aa6d9-359d-44ba-bb0c-d793188f60c9" name="Changes" comment="" />
-      <created>1687508981200</created>
+      <changelist id="a6ae4d37-0488-431b-8154-779a5588a4ff" name="Changes" comment="" />
+      <created>1701850766457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687508981200</updated>
-      <workItem from="1687508984547" duration="9978000" />
-      <workItem from="1687539086485" duration="139000" />
-      <workItem from="1687539229498" duration="5066000" />
-      <workItem from="1687545065454" duration="546000" />
-      <workItem from="1687545858183" duration="5212000" />
-      <workItem from="1687592808875" duration="7463000" />
+      <updated>1701850766457</updated>
+      <workItem from="1701850769278" duration="2437000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

@@ -13,7 +13,7 @@ const Footer = () => {
                     <li><a href="#">Доставка</a></li>
                     <li><a href="#">Контакты</a></li>
                     <li><img src={contacts} alt="контактный номер" className="contact-number-footer"/><a
-                        href="#">+996500405988</a></li>
+                        href="#">+996702965650</a></li>
                 </ul>
             </div>
         </footer>
